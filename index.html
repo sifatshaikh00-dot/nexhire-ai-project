@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>NexHire-AI | Login</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+    <div class="page">
+
+        <div class="brand-section">
+            <div class="logo">NexHire<span>-AI</span></div>
+
+            <h1>Welcome<br>Back to <span>NexHire-AI</span></h1>
+
+            <p>
+                Continue your interview preparation journey
+                and become confident for your next opportunity.
+            </p>
+
+            <div class="features">
+                <div>✓ AI-Powered Mock Interviews</div>
+                <div>✓ Personalized Feedback</div>
+                <div>✓ Track Your Progress</div>
+            </div>
+        </div>
+
+        <div class="register-card">
+
+            <h2>Welcome Back!</h2>
+            <p class="subtitle">Login to continue your journey</p>
+
+            <form onsubmit="loginUser(event)">
+
+                <label>Email Address</label>
+                <input type="email"
+                       id="loginEmail"
+                       placeholder="Enter your email"
+                       required>
+
+                <label>Password</label>
+                <input type="password"
+                       id="loginPassword"
+                       placeholder="Enter your password"
+                       required>
+
+                <div class="forgot">
+                    <a href="#">Forgot Password?</a>
+                </div>
+
+                <button type="submit">Login →</button>
+
+            </form>
+
+            <p class="login-text">
+                Don't have an account?
+                <a href="register.html">Create Account</a>
+            </p>
+
+        </div>
+
+    </div>
+
+    <script src="script.js"></script>
+
+</body>
+</html>

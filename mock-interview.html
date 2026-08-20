@@ -1,0 +1,138 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <title>NexHire-AI | Mock Interview</title>
+
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+    <div class="interview-page">
+
+        <!-- NAVBAR -->
+
+        <nav class="interview-navbar">
+
+            <div class="home-logo">
+                NexHire<span>-AI</span>
+            </div>
+
+            <div class="interview-info">
+                <span id="selectedCompany">Company</span>
+                <span>•</span>
+                <span id="selectedRole">Job Role</span>
+            </div>
+
+        </nav>
+
+
+        <!-- INTERVIEW CONTENT -->
+
+        <main class="interview-container">
+
+            <div class="interview-header">
+
+                <div>
+                    <p>MOCK INTERVIEW</p>
+
+                    <h1>
+                        Technical Interview
+                    </h1>
+                </div>
+
+                <div class="progress-box">
+
+                    <span id="questionNumber">
+                        Question 1 of 5
+                    </span>
+
+                    <div class="progress-bar">
+                        <div
+                            class="progress"
+                            id="progress">
+                        </div>
+                    </div>
+
+                </div>
+
+            </div>
+
+
+            <!-- QUESTION CARD -->
+
+            <section class="question-card">
+
+                <div class="question-label">
+                    QUESTION <span id="currentNumber">01</span>
+                </div>
+
+                <h2 id="question">
+                    What is Object-Oriented Programming
+                    and what are its main principles?
+                </h2>
+
+                <p class="question-hint">
+                    Take your time and explain your answer
+                    clearly and confidently.
+                </p>
+
+
+                <!-- ANSWER -->
+
+                <label for="answer">
+                    Your Answer
+                </label>
+
+                <textarea
+                    id="answer"
+                    placeholder="Type your answer here..."
+                    rows="9">
+                </textarea>
+
+
+                <div class="answer-footer">
+
+                    <span id="wordCount">
+                        0 words
+                    </span>
+
+                    <a
+                        href="result.html"
+                        class="submit-answer-btn">
+
+                        Submit Answer →
+
+                    </a>
+
+                </div>
+
+            </section>
+
+
+            <!-- INTERVIEW TIPS -->
+
+            <div class="interview-tip">
+
+                <strong>💡 Interview Tip</strong>
+
+                <p>
+                    Explain your answer with a simple example
+                    whenever possible. Clear communication is
+                    just as important as technical knowledge.
+                </p>
+
+            </div>
+
+        </main>
+
+    </div>
+
+
+    <script src="script.js"></script>
+
+</body>
+</html>
